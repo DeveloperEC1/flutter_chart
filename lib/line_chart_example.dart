@@ -30,7 +30,7 @@ class LineChartExampleState extends State<LineChartExample> {
                         case 7:
                           return 'OCT';
                         case 12:
-                          return 'DEC';
+                          return 'NOV';
                       }
                       return '';
                     },
