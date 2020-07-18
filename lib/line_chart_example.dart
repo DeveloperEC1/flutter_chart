@@ -1,18 +1,10 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
-class LineChartExample extends StatefulWidget {
-  @override
-  State<StatefulWidget> createState() => LineChartExampleState();
-}
-
-class LineChartExampleState extends State<LineChartExample> {
+class LineChartExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Line Chart"),
-      ),
       body: Container(
           child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
